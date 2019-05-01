@@ -32,13 +32,13 @@ class Stripes extends Component {
     }
 
     showStripes = () => (
-        this.state.stripes.map((stripe, i) => (
+        this.state.stripes.map( (stripe, i) => (
             <Animate
                 key={i}
                 show={true}
 
                 start={{
-                    background:'#fff',
+                    background:'#98c5e9',
                     opacity: 0,
                     left: 0,
                     rotate: 0,

@@ -121,7 +121,7 @@ class Text extends Component {
 
             {({ opacity }) => {
                 return(
-                    <div className="featured_player"
+                    <div className= "featured_player"
                         style={{
                             opacity,
                             background: `url(${FeaturedPlayer})`,
